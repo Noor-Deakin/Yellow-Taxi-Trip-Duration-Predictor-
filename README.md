@@ -12,10 +12,10 @@ Raw size: 11,077,206 rows | Cleaned size: 7,572,801 rows
 
 What the Pipeline Does
 
-Cleaned corrupt records: bad timestamps, negative fares, zero passengers, invalid distances
-Engineered target variable (trip_duration) and temporal features (hour, day of week, rush hour, weekend)
-Caught and removed a data leakage issue (trip speed derived from target variable)
-Trained Linear Regression (baseline) vs Random Forest on a 300K sample
+Cleaned corrupt records: bad timestamps, negative fares, zero passengers, invalid distances.
+Engineered target variable (trip_duration) and temporal features (hour, day of week, rush hour, weekend).
+Caught and removed a data leakage issue (trip speed derived from target variable).
+Trained Linear Regression (baseline) vs Random Forest on a 300K sample.
 
 Tech Stack
 
